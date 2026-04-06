@@ -76,6 +76,8 @@ dependencies {
 
     //JEI
     implementation("mezz.jei:jei-${jei_mc_version}-neoforge:${jei_version}")
+    //Better Compatibility Checker
+    implementation("curse.maven:better-compatibility-checker-551894:7805980")
 }
 
 tasks.withType(ProcessResources).configureEach {
