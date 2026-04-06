@@ -1,0 +1,18 @@
+{
+    "required": true,
+    "package": "com.benbenlaw.modpackutils.mixin",
+    "compatibilityLevel": "JAVA_25",
+    "mixins": [
+        "FireBlockNetherPortalMixin",
+        "PortalTagForNetherPortalsMixin"
+    ],
+    "client": [
+        "client.HorizonHeightMixin",
+        "client.NightVisionEffectMixin",
+        "client.ServerListAccessor",
+        "client.ServerListMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
