@@ -1,6 +1,5 @@
 package com.benbenlaw.modpackutils;
 
-
 import com.benbenlaw.modpackutils.config.DimensionConfig;
 import com.benbenlaw.modpackutils.config.MUConfig;
 import com.benbenlaw.modpackutils.config.StartupConfig;
