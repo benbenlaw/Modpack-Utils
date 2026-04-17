@@ -57,7 +57,7 @@ public class MUConfig {
         enabledVoidProtection = BUILDER.comment("If enabled, players will be teleported to their spawn point if they fall into the void, default = false")
                 .define("Enable Void Protection", false);
 
-        climbableBlockSpeed = BUILDER.comment("Speed that blocks in the bblcore:climbable_blocks tag can be climbed, default = 0.15")
+        climbableBlockSpeed = BUILDER.comment("Speed that blocks in the modpackutils:climbable_blocks tag can be climbed, default = 0.15")
                 .define("Climbable Block Speed", 0.15);
 
         BUILDER.pop();

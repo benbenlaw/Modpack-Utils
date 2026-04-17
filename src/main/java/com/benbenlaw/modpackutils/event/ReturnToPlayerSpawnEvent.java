@@ -53,7 +53,7 @@ public class ReturnToPlayerSpawnEvent {
                 );
 
                 player.teleport(transition);
-                player.sendSystemMessage(Component.translatable("chat.bblcore.falling.home"));
+                player.sendSystemMessage(Component.translatable("chat.modpackutils.falling.home"));
 
             }
         }
