@@ -14,8 +14,8 @@ public class StartupConfig {
     static {
 
         //Save The World
-        BUILDER.comment("BBL Core Startup Config")
-                .push("BBL Core");
+        BUILDER.comment("Modpack Utils Startup Config")
+                .push("Modpack Utils");
 
         enableSaveTheWorld = BUILDER.comment("Save the world will try to fix broken world where a block is causing crashes, default = false")
                 .define("Try to Save the world", false);
