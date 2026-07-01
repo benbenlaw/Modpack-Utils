@@ -16,6 +16,7 @@ public class MUConfig {
     public static final ModConfigSpec.ConfigValue<Double> horizonHeight;
     public static final ModConfigSpec.ConfigValue<Boolean> enabledVoidProtection;
     public static final ModConfigSpec.ConfigValue<Double> climbableBlockSpeed;
+    public static final ModConfigSpec.ConfigValue<String> piglinBarteringItem;
 
 
     static {
@@ -59,6 +60,9 @@ public class MUConfig {
 
         climbableBlockSpeed = BUILDER.comment("Speed that blocks in the modpackutils:climbable_blocks tag can be climbed, default = 0.15")
                 .define("Climbable Block Speed", 0.15);
+
+        piglinBarteringItem = BUILDER.comment("Item that piglins will barter for, default = minecraft:gold_ingot")
+                .define("Piglin Bartering Item", "minecraft:gold_ingot");
 
         BUILDER.pop();
 
