@@ -3,6 +3,7 @@
   "package": "com.benbenlaw.modpackutils.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
+    "EntityLeashableMixin",
     "FireBlockNetherPortalMixin",
     "PiglinAiMixin",
     "PortalTagForNetherPortalsMixin"
