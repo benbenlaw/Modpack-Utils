@@ -5,6 +5,7 @@
   "mixins": [
     "EntityLeashableMixin",
     "FireBlockNetherPortalMixin",
+    "MobLeashableMixin",
     "PiglinAiMixin",
     "PortalTagForNetherPortalsMixin"
   ],
