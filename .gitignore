@@ -119,4 +119,4 @@ runs
 !gradle-wrapper.jar
 /runs/
 
-/src/main/java/com/benbenlaw/core/util/GitExcludedClass.java
+/src/main/java/com/benbenlaw/modpackutils/util/GitExcludedClass.java
