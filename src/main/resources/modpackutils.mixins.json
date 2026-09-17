@@ -7,7 +7,8 @@
     "FireBlockNetherPortalMixin",
     "MobLeashableMixin",
     "PiglinAiMixin",
-    "PortalTagForNetherPortalsMixin"
+    "PortalTagForNetherPortalsMixin",
+    "SnifferDiggingMixin"
   ],
   "client": [
     "client.HorizonHeightMixin",

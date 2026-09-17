@@ -17,6 +17,7 @@ public class MUConfig {
     public static final ModConfigSpec.ConfigValue<Boolean> enabledVoidProtection;
     public static final ModConfigSpec.ConfigValue<Double> climbableBlockSpeed;
     public static final ModConfigSpec.ConfigValue<String> piglinBarteringItem;
+    public static final ModConfigSpec.ConfigValue<String> snifferCooldown;
 
 
     static {
@@ -63,6 +64,9 @@ public class MUConfig {
 
         piglinBarteringItem = BUILDER.comment("Item that piglins will barter for, default = minecraft:gold_ingot")
                 .define("Piglin Bartering Item", "minecraft:gold_ingot");
+
+        snifferCooldown = BUILDER.comment("The cooldown applied after a Sniffy works in ticks, default = 9600")
+                .define("Sniffer Cooldown", "9600");
 
         BUILDER.pop();
 
